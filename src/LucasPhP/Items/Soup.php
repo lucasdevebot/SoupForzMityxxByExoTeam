@@ -15,7 +15,7 @@ class Soup implements Listener {
             $player = $event->getPlayer();
             $item = $player->getInventory()->getItemInHand();
 
-            if ($item->getId() === Item::MUSHROOMSTEW) {
+            if ($item->getId() === Item::YELLOWDYE) {
 
                 if ($player->getHealth() < 20) {
 
