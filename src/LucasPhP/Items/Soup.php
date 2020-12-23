@@ -20,7 +20,7 @@ class Soup implements Listener {
                 if ($player->getHealth() < 20) {
 
                     $player->setHealth($player->getHealth() + 4);
-                    $player->sendPopup("Â§7+ Â§a2");
+                    $player->sendPopup("§a+ §a2");
                     $player->getInventory()->removeItem(Item::get($item->getId(), 0, 1));
 
                 }
